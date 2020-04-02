@@ -2,11 +2,11 @@
 
 API:
 
-boolean hasSpot(Vehicle v);
+- boolean hasSpot(Vehicle v);
 
-boolean park(Vehicle v);
+- boolean park(Vehicle v);
 
-boolean leave(Vehicle v);
+- boolean leave(Vehicle v);
 
 
 
@@ -16,14 +16,14 @@ boolean leave(Vehicle v);
 
 classes:
 
-ParkingLot
+- ParkingLot
 
-Level
+- Level
 
-Vehicle
+- Vehicle
 
-ParkingSpot
+- ParkingSpot
 
-Car
+- Car
 
-Truck
+- Truck
