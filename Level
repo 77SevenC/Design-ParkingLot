@@ -1,0 +1,4 @@
+class Level{
+  private final List<ParkingSpot> spots;
+  
+}
