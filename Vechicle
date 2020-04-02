@@ -1,0 +1,17 @@
+public abstract class Vehicle{
+  public abstract VehicleSize getSize();
+}
+
+public class Car extends Vechie{
+  @Override
+  public VehicleSize getSize(){
+    return VehicleSize.Compact;
+  }
+}
+
+public class Truck extends Vehicle{
+  @Override
+  public VehicleSize getSize(){
+    return VehicleSize.Large;
+  }
+}
