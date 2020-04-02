@@ -1,0 +1,21 @@
+class ParkingSpot{
+  private final VechicleSize size;
+  private Vehicle currentVehicle;
+  
+  ParikingSpot(VechicleSize size){
+    this.size = size;
+  }
+  
+  boolean fit(Vehicle v){
+    return currentVehicle == null && size.getSize() >= v.getSize().getSize();
+  }
+  
+  // record a vehicle is parked in by updating the current Vehicle field
+  void park(Vehicle v){
+    currentVehicle = v;
+  }
+  
+  void leave(){
+    return currentVehicle;
+  }
+}
